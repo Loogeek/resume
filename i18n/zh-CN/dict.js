@@ -3,9 +3,9 @@ module.exports = {
         "internship": "（实习）"
     },
     skill_type: {
-        "frontend": "Web 前端",
+        "frontend": "Web 相关技能",
         "backend": "Web 后端",
-        "miscellaneous": "其他"
+        "miscellaneous": "个人简介"
     },
     education_type: {
         "undergraduate": "（本科）"
@@ -22,11 +22,11 @@ module.exports = {
             "en": "Education"
         },
         "language": {
-            "ch": "语言水平",
-            "en": "Language"
+            "ch": "相关技能",
+            "en": "Skills"
         },
         "experience": {
-            "ch": "项目与工作经验",
+            "ch": "项目",
             "en": "Experience"
         },
         "skills": {

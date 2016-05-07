@@ -1,214 +1,167 @@
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "张秋怡 - 个人简历",
-  "name": "张秋怡",
-  "repo": "https://github.com/joyeecheung/resume.git",
-  "job_description": ["前端工程师", "软件工程师"],
+  "resume_title": "肖龙 - 个人简历",
+  "name": "肖龙",
+  "job_description": ["前端工程师"],
   "contact": {
-    "email": "joyeec9h3@gmail.com",
+    "phone": "18689765537",
+    "email": "xiaolong3956@gmail.com",
     "wechat": {
-      "id": "joyee-cheung",
-      "qrcode": "static/wechat.svg"
+      "id": "Loogeek",
+      "qrcode": "static/wechat.png"
     },
     "sinaweibo": {
-      "id": "SYSU_Joyee",
-      "url": "http://weibo.com/2930876843"
+      "id": "Loogeek",
+      "url": "http://weibo.com/2883344217"
     },
     "github": {
-      "id": "joyeecheung"
-    },
-    "blog": {
-      "url": "http://joyeecheung.cnblogs.com"
+      "id": "Loogeek"
     }
   },
   "links": [{
-    "type": "repo",
-    "url": "https://github.com/joyeecheung/resume"
-
-  }, {
     "type": "pdf",
-    "url": "static/joyeecheung.pdf"
-
-  }, {
-    "type": "zhihu",
-    "url": "http://www.zhihu.com/people/zhang-qiu-yi-27/"
-  }, {
-    "type": "doubanbook",
-    "url": "http://book.douban.com/people/joyee-cheung/"
+    "url": "static/Loogeek.pdf"
   }],
   "education": [{
     "type": "undergraduate",
-    "name": "中山大学",
-    "major": "软件工程",
-    "start": "2012",
-    "end": "2016",
-    "honor": [
-      "2012 - 2013 学年度校**三等奖学金**",
-      "2013 - 2014 学年度校**一等奖学金**"
-    ]
+    "name": "重庆邮电大学",
+    "major": "通信学院-信息工程专业",
+    "start": "2009",
+    "end": "2013",
+    "honor": ["CET-4","2010-2011学年度校`三等奖学金`","2011-2012学年度校`二等奖学金`"]
   }],
   "language": [{
     "type": "english",
     "certificate": [{
-      "type": "CET-4",
-      "full": "710",
-      "score": "679"
+      "type": "HTML",
+      "full": "100",
+      "score": "75"
     }, {
-      "type": "CET-6",
-      "full": "710",
-      "score": "616"
+      "type": "CSS",
+      "full": "100",
+      "score": "70"
+    }, {
+      "type": "JavaScript",
+      "full": "100",
+      "score": "67"
+    }, {
+      "type": "jQuery",
+      "full": "100",
+      "score": "65"
+    }, {
+      "type": "Vue",
+      "full": "100",
+      "score": "63"
+    }, {
+      "type": "Bootstrap",
+      "full": "100",
+      "score": "60"
+    }, {
+      "type": "Sass",
+      "full": "100",
+      "score": "55"
+    }, {
+      "type": "React",
+      "full": "100",
+      "score": "40"
+    }, {
+      "type": "Node.js",
+      "full": "100",
+      "score": "30"
     }],
-    "description": [
-      "能流畅阅读英文专业书籍、文档及其他资料",
-      "可无字幕观看 MOOC 课程、开发者大会视频",
-      "能够在英文邮件列表、Stack Overflow 等社区正常交流"
-    ]
+    "description": []
   }],
   "experience": [{
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "阿里巴巴 B2B-ICBU 数据应用部",
-    "start": "2015.07",
-    "end": "至今",
-    "name": "前端开发",
-    "description": [
-      "开发支持 i18n 的数据可视化组件",
-      "解决外部系统遗留的 bug 及浏览器兼容问题（`IE7+`）",
-      "使用 `SVG` 等技术开发内部系统数据可视化图表"
-    ],
-    "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
-    "compatibility": "IE8+"
-  }, {
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "埃森哲广州 CDC",
-    "start": "2014.08",
-    "end": "2014.09",
-    "name": "前端开发",
-    "description": [
-      "参与某集团内部办公系统（OA）的前端开发，基于 `jQuery UI` 与 `Bootstrap` 实现前端组件及数据交互",
-      "解决遗留的 bug 及浏览器兼容问题（`IE8+`）",
-      "使用 `Grunt` 及 `Less` 完成皮肤开发"
-    ],
-    "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
-    "compatibility": "IE8+"
-  }, {
-    "type": "internship",
-    "techtype": "nodejs",
-    "place": "东西科技",
-    "start": "2014.03",
-    "end": "2014.06",
-    "name": "Node.js 开发",
-    "description": [
-      "开发并维护封装微信公众平台 API 的 `Express 中间件`",
-      "使用 `Mocha`、`Chai` 及 `CoffeeScript` 编写单元测试",
-      "结合 `MongoDB` 开发微信公众平台 Demo",
-      "编写 `bash` 脚本，使用 `ApacheBench` 对后端程序进行压力测试与资源使用分析，辅助服务器选型"
-    ],
-    "stack": ["nodejs", "express", "mocha", "chai", "coffeescript", "mongodb"]
-  }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "Resume",
-    "source": "https://github.com/joyeecheung/resume",
-    "demo": "http://joyeecheung.github.io/resume/",
+    "name": "基于jQuery搭建的豆瓣电影音乐网站",
+    "source": "https://github.com/Loogeek/douban_Website",
+    "demo": "http://7xrqxi.com1.z0.glb.clouddn.com/douban1.gif",
     "description": [
-      "这份在线简历的生成器",
-      "从 JSON 读取数据，使用 `Jade` 模板生成 HTML，`Less` 生成**响应式**样式",
-      "使用 `Gulp` 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages"
+      "`网站的基本功能`：模仿豆瓣电影及音乐首页相近的展示页面，具有用户注册登录及管理、电影音乐详情页面添加及删除评论、信息录入和搜索、分类添加及删除、图片海报自定义上传、列表分页及访客统计等功能",
+      "使用`NodeJs + express`完成电影网站后端搭建",
+      "使用`mongodb`完成数据存储,通过`mongoose`模块完成对`mongodb`数据的构建",
+      "使用`jade`模板引擎完成页面创建渲染",
+      "使用`jQuery`和`Bootsrap`完成网站前端JS脚本和样式搭建",
+      "使用`Sass`完成电影和音乐首页样式的编写",
+      "使用`validate.js`对用户登录注册账号合法性的判断",
+      "使用`fullpage.js`插件完成电影宣传页全屏滚动效果页面的制作",
+      "前后端的数据请求交互通过`Ajax`完成",
+      "使用`gulp`集成`jshint`对JS语法检查，`Sass`文件编译、压缩等功能，使用`mocha`完成用户注册存储等步骤的简单单元测试，以及服务器的自动重启等功能",
+      "电影首页支持`响应式`布局"
     ],
-    "stack": ["jade", "less", "gulp"],
+    "stack": ["Node","express","MongoDB","jQuery","jade", "Sass", "gulp"],
     "compatibility": "IE9+"
   }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "My Tech Diary",
-    "source": "https://github.com/joyeecheung/diary",
-    "demo": "http://joyeecheung.github.io/diary/",
+    "name": "分别基于React和Vue搭建的豆瓣电影音乐网站",
+    "source": "https://github.com/Loogeek/douban-Vue",
+    "demo": "",
     "description": [
-      "一个技术日记站点生成器，从 `git submodule` 中读取 `Markdown` 文件，结合 `Jade` 模板，生成静态站点",
-      "通过 `PostCSS` 将依照实验性 CSS 标准编写的代码转译使用",
-      "前端 JavaScript 代码以 `CommonJS` 形式组织，使用 `WebPack` 进行打包处理",
-      "使用 `Gulp` 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages"
+      "两个项目均在第一个项目的基础上，分别尝试使用了`Vue`和`React`替换了原网页中部分用`jQuery`操作DOM的JS脚本，使用组件化的方式进行开发，高了阅读性和维护性，并使用`Webpack`完成资源模块打包管理，并尝试了使用`ES6`完成组件的编写",
+      "使用`Vue`和`React`组件化完成对电影音乐首页中Tab展示内容的开发",
+      "尝试使用了`ES6`语法完成组件的编写，并通过`babel`完成语法编译",
+      "使用`Webpack`完成组件模块的加载打包及代码的压缩"
     ],
-    "stack": ["jade", "postcss", "markdown",  "webpack", "gulp"],
+    "stack": ["Node","express","MongoDB","React","Vue","jQuery","jade", "Sass", "gulp"],
     "compatibility": "IE9+"
   }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "Virtual Bookcase",
-    "source": "https://github.com/joyeecheung/virtual-bookcase",
+    "name": "基于Vue和Vuex实现的一个带有Markdown功能的简单笔记应用",
+    "source": "https://github.com/Loogeek/NoteApp-Vue",
+    "demo": "http://loogeek.github.io/NoteApp-Vue",
     "description": [
-      "基于 `Three.js` 实现的 3D 虚拟图书室",
-      "使用 `Express` 与 `MongoDB` 提供图书数据 API",
-      "使用 `RequireJS` 加载模块，`Grunt` 驱动工作流，`Web Worker` 优化图像处理"
+      "该项目使用`Vue.js`通过组件化开发完成",
+      "使用`Vuex`状态管理架构对项目中的state进行统一管理，使状态更利于追踪，提高了阅读性及降低了维护成本",
+      "使用`localstorage`对应用数据进行存储",
+      "使用`ESlint`对项目代码进行风格统一及校验",
+      "使用`marked`让编辑区支持`Markdown`语法，可通过左侧工具栏第三个按钮查看`Markdown`显示效果",
+      "可添加、标记及删除节点，并可修改标题内容",
+      "使用`Karma + jasmine`进行简单的测试",
+      "通过`Webpack-dev-server`运行，并支持代码`热替换`"
     ],
-    "stack": ["three.js", "mongodb", "express"],
-    "compatibility": "IE10+"
+    "stack": ["Vue", "Vuex", "ESlint","localstorage","Markdown","karma","jasmine"],
+    "compatibility": "IE9+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "网易教育产品部页面",
+    "source": "https://github.com/Loogeek/Netease-EDU-Web",
+    "demo": "http://loogeek.github.io/Netease-EDU-Web/",
+    "description": [
+      "通过`PS`切图切出设计稿中全部的静态图片",
+      "按照设计稿还原页面视觉效果",
+      "整个页面的交互效果都通过原生`JavaScript`完成，具有简单轮播动画，滚动动画效果，通过`Cookie`存储用户信息，通过`Ajax`与网易后端服务器完成课程数据的交互，以及课程可根据浏览器窗口宽度实现不同布局"
+    ],
+    "stack": ["JavaScript", "Ajax"],
+    "compatibility": "IE8+"
   }],
   "skills": [{
     "type": "frontend",
     "item": [{
-      "summary": "`HTML` / `CSS`",
+      "summary": "",
       "description": [
-        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与动画",
-        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，实验项目中能尝试使用未广泛实现的新标准"
-      ]
-    }, {
-      "summary": "`ECMAScript`（`JavaScript`）",
-      "description": [
-        "熟悉 `ECMAScript`（`JavaScript`），对 `JavaScript 引擎`及相关 JIT 技术有一定的了解",
-        "了解 `ECMAScript` 新标准与相关后处理工具并能在项目中使用"
-      ]
-    }, {
-      "summary": "`DOM` / `BOM` 及常见 `Web API`",
-      "description": [
-        "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准（W3C / WHATWG），有桌面 / 移动端前端组件的开发经验",
-        "对 `WebGL` / `Web Workers` / `WebSocket` / `Web Components` / `SVG` 等 API 有一定的使用经验",
-        "阅读过 `WebKit` / `Blink` 源码中的部分实现，了解常见的 Web API **兼容性**问题及其解决方案"
-      ]
-    }, {
-      "summary": "前端工程实践",
-      "description": [
-        "使用 `Meteor` / `AngularJS` / `Polymer` 编写过简单的 CRUD SPA，了解 `Backbone.js` / `React` 及前端 `MV*` 模型",
-        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
-        "在项目中使用过 `Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等多种模块化解决方案",
-        "在项目中使用过 `Less` / `Sass` / `PostCSS` / `CoffeeScript` / `TypeScript` 等预处理/后处理工具",
-        "日常使用 `Grunt` 或 `Gulp` 改进工作流",
-        "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
-      ]
-    }]
-  }, {
-    "type": "backend",
-    "item": [{
-      "summary": "`Node.js`",
-      "description": [
-        "能够使用 `Node.js API` / `Express` / `Koa` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
-        "了解异步 I/O 及事件驱动的服务器模型，掌握常见的**异步编程**解决方案",
-        "能编写简单的 `Express` / `Connect` / `Koa` 中间件，使用 `Mocha` 与 `Chai` 编写单元测试"
-      ]
-    }, {
-      "summary": "其他",
-      "description": [
-        "使用 `Tornado` / `Flask`（`Python`） 搭建过简单的服务器",
-        "有使用 `MongoDB` / `MySQL` 数据库，`Redis` 缓存，`nginx` 反向代理的经验",
-        "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议"
+        "熟悉`HTML` / `CSS` / `JavaScript`规范，并在项目尝试使用了`ES2015`部分新特性",
+        "在项目中使用 `React` / `Vue` 完成简单的组件化开发，对组件化 / 代码复用有一定认识",
+        "掌握基本的`React Native`移动端开发",
+        "熟悉 `jQuery` / `Bootstrap` 库使用",
+        "熟悉 `Grunt` 、 `Gulp` 自动化工具 / `Webpack` 模块打包工具 / `Sass` 预处理工具的配置及使用 ",
+        "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践",
+        "能编写简单`express` Web应用并完成与`MongoDB`交互，对`Jade`模板引擎及`MVC`开发模式都有实践",
+        "能编写简单的单元测试用例"
       ]
     }]
   }, {
     "type": "miscellaneous",
     "item": [
-      "三年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
-      "熟悉多种平台与编译环境下的 `C` / `C++` 及其新标准，编写过简单的解释器、数据库引擎、3D 图形程序及 Node.js 扩展，能阅读 `WebKit` / `Blink、V8` 等常接触项目的源代码并加以利用",
-      "熟悉 `Python`，能实现简单的数据及图像处理工具、自动化脚本、爬虫、机器学习算法及分布式程序（参见 GitHub）",
-      "具备基本的 `Web 安全`知识（`X.509` / `XSS` / `CSRF` 等）",
-      "能够使用 `LaTeX` 及 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力",
-      "日常使用 `Git` 与 `Sublime Text` / `Vim` 进行开发，也乐于尝试新工具",
-      "能够使用 `Photoshop` / `Illustrator` 完成简单的设计"
+      "13年毕业后在运营商负责华为网络数通业务，15年5月离职开始接触并自学前端至今，热爱编程，喜欢钻研，在校成绩优秀，能通过`Google` / `Github` / `Stack Overflow`等工具或社区学习并解决问题"
     ]
   }]
 }

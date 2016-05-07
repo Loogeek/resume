@@ -22,23 +22,41 @@ block language
         each desc in lang.description
           li.language-desc-item= desc
 
+block introduction
+  +introSection("skills", true)
+    - for(var i = 1; i < 2; i++)
+      li.timeline-item(class="skills-" + skills[i].type)
+        h3.timeline-title
+          span.skills-type= skill_type[skills[i].type]
+        +#{"skills_" + skills[i].type}(skills[i])
 
 block experience
   +section("experience", true)
-    each item in experience
-      li.timeline-item(class="experience-" + item.type)
+    - for(var i = 0; i < 1; i++)
+      li.timeline-item(class="experience-" + experience[i].type)
         h3.timeline-title
-          +#{"experience_title_" + item.type}(item)
+          +#{"experience_title_" + experience[i].type}(experience[i])
         dl.experience-description.timeline-content
-          +#{"experience_content_" + item.type}(item)
+          +#{"experience_content_" + experience[i].type}(experience[i])
+
+
+block experience2
+  +section("experience", true)
+    - for(var i = 1; i < 4; i++)
+      li.timeline-item(class="experience-" + experience[i].type)
+        h3.timeline-title
+          +#{"experience_title_" + experience[i].type}(experience[i])
+        dl.experience-description.timeline-content
+          +#{"experience_content_" + experience[i].type}(experience[i])
+
 
 block skills
   +section("skills", true)
-    each item in skills
-      li.timeline-item(class="skills-" + item.type)
+    - for(var i = 0; i < 1; i++)
+      li.timeline-item(class="skills-" + skills[i].type)
         h3.timeline-title
-          span.skills-type= skill_type[item.type]
-        +#{"skills_" + item.type}(item)
+          span.skills-type= skill_type[skills[i].type]
+        +#{"skills_" + skills[i].type}(skills[i])
 
 
 block links
@@ -49,5 +67,5 @@ block links
 
 block repo
   p
-    | This resume is generated with Gulp, Less and Jade by 
+    | This resume is generated with Gulp, Less and Jade by
     | #[a(href="https://github.com/joyeecheung/resume") Joyee Cheung&#39;s resume generator].

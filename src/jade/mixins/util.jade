@@ -43,6 +43,19 @@ mixin section(sec_class, timeline)
           block
 
 
+mixin introSection(sec_class, timeline)
+  section(class=sec_class)
+    if timeline
+      .timeline-wrapper2
+        ul.sec-content.timeline2
+          if block
+            block
+    else
+      .sec-content
+        if block
+          block
+
+
 mixin certificate(certificate)
   dl.language-certificates
     each cert in certificate
@@ -73,7 +86,7 @@ mixin skills_backend(item)
 mixin skills_miscellaneous(item)
     ul.skills-description.skills-miscellaneous.timeline-content
       each desc in item.item
-        li.skills-item-description
+        li.skills-item-description2
           span!= highlight(desc)
 
 
