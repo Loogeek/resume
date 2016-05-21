@@ -32,7 +32,7 @@ block introduction
 
 block experience
   +section("experience", true)
-    - for(var i = 0; i < 1; i++)
+    - for(var i = 0; i < 2; i++)
       li.timeline-item(class="experience-" + experience[i].type)
         h3.timeline-title
           +#{"experience_title_" + experience[i].type}(experience[i])
@@ -42,7 +42,7 @@ block experience
 
 block experience2
   +section("experience", true)
-    - for(var i = 1; i < 4; i++)
+    - for(var i = 2; i < 5; i++)
       li.timeline-item(class="experience-" + experience[i].type)
         h3.timeline-title
           +#{"experience_title_" + experience[i].type}(experience[i])
