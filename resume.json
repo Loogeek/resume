@@ -98,6 +98,20 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
+    "name": "网易教育产品部页面",
+    "source": "https://github.com/Loogeek/Netease-EDU-Web",
+    "demo": "http://loogeek.github.io/Netease-EDU-Web/",
+    "description": [
+      "通过`PS`切图切出设计稿中全部的静态图片",
+      "按照设计稿还原页面视觉效果",
+      "整个页面的交互效果都通过原生`JavaScript`完成，具有简单轮播动画，滚动动画效果，通过`Cookie`存储用户信息，通过`Ajax`与网易后端服务器完成课程数据的交互，以及课程可根据浏览器窗口宽度实现不同布局"
+    ],
+    "stack": ["JavaScript", "Ajax"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
     "name": "分别基于React和Vue搭建的豆瓣电影音乐网站",
     "source": "https://github.com/Loogeek/douban-Vue",
     "demo": "",
@@ -108,6 +122,26 @@
       "使用`Webpack`完成组件模块的加载打包及代码的压缩"
     ],
     "stack": ["Node","express","MongoDB","React","Vue","jQuery","jade", "Sass", "gulp"],
+    "compatibility": "IE9+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "基于Vue和Vue-router搭建的电影WebApp应用",
+    "source": "https://github.com/Loogeek/MovieApp-Vue",
+    "demo": "http://loogeek.github.io/MovieApp-Vue",
+    "description": [
+      "项目使用`Vue.js`组件化开发",
+      "使用`Vue-router`完成组件间路由跳转",
+      "使用`Vue-resource`获取数据",
+      "使用`sessionStorage`完成对首页和列表页面数据的存储，可减少不必要的请求并提高访问速度",
+      "项目整体样式及图标通过`frozen UI`移动UI库完成",
+      "使用`Jade`和`Sass`完成HTML和样式编写",
+      "项目中使用了`ES6`并通过`babel`完成编译",
+      "使用`ESlint`对项目代码进行风格统一及校验",
+      "使用`Webpack`完成模块打包加载，并通过`Webpack-dev-server`运行，支持代码`热替换`"
+    ],
+    "stack": ["Vue", "Vue-router", "ESlint","SessionStorage"],
     "compatibility": "IE9+"
   }, {
     "type": "project",
@@ -128,20 +162,6 @@
     ],
     "stack": ["Vue", "Vuex", "ESlint","localstorage","Markdown","karma","jasmine"],
     "compatibility": "IE9+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "网易教育产品部页面",
-    "source": "https://github.com/Loogeek/Netease-EDU-Web",
-    "demo": "http://loogeek.github.io/Netease-EDU-Web/",
-    "description": [
-      "通过`PS`切图切出设计稿中全部的静态图片",
-      "按照设计稿还原页面视觉效果",
-      "整个页面的交互效果都通过原生`JavaScript`完成，具有简单轮播动画，滚动动画效果，通过`Cookie`存储用户信息，通过`Ajax`与网易后端服务器完成课程数据的交互，以及课程可根据浏览器窗口宽度实现不同布局"
-    ],
-    "stack": ["JavaScript", "Ajax"],
-    "compatibility": "IE8+"
   }],
   "skills": [{
     "type": "frontend",
@@ -154,7 +174,7 @@
         "熟悉 `jQuery` / `Bootstrap` 库使用",
         "熟悉 `Grunt` 、 `Gulp` 自动化工具 / `Webpack` 模块打包工具 / `Sass` 预处理工具的配置及使用 ",
         "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践",
-        "能编写简单`express` Web应用并完成与`MongoDB`交互，对`Jade`模板引擎及`MVC`开发模式都有实践",
+        "能编写简单`express` Web应用并完成与`MongoDB`交互",
         "能编写简单的单元测试用例"
       ]
     }]
